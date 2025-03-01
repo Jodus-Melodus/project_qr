@@ -1,7 +1,9 @@
 import PIL.Image
 import qrcode, PIL
 
-while True:
+data = " "
+
+while len(data) > 0:
     data = input("Data > ")
     save_as = input("Save as > ")
 
