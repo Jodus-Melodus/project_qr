@@ -1,10 +1,10 @@
 from cx_Freeze import Executable, setup
 
 exe = Executable(
-    script="moreQR.py"
+    script="more_qr.py"
 )
 
 setup(
-    name='moreQR',
+    name='more_qr',
     executables=[exe]
 )

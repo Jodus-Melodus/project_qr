@@ -1,10 +1,10 @@
 from cx_Freeze import Executable, setup
 
 exe = Executable(
-    script="oneQR.py"
+    script="one_qr.py"
 )
 
 setup(
-    name='oneQR',
+    name='one_qr',
     executables=[exe]
 )
